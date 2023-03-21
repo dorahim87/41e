@@ -4,11 +4,11 @@
 
 > - Initialise un dépot vide, cette commande est éxécuté une seule fois
 > - Si on l'éxécute une deuxiéme fois on détruit le dépot 
-- 'git init'
+- `git init`
 
 ---
 ### Vérifier le status
-- git status'
+- `git status`
 ---
 ### Afficher l'historique des commits
 - `git log`
@@ -19,4 +19,6 @@
 - `git branch -m "nom nouvelle branche"`
 - Pour créer une nouvelle branche
 - `git branch "nouvelle branche"`
-- Pour 
+- Pour changer de branche
+- `git checkout << la branche>>`
+- 
