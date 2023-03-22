@@ -35,3 +35,6 @@
   - `git remote add 41e https://github.com/dorahim87/41e.git`
   - `git remote -v`// voir la liste des alias du serveur distant
   - `git push 41e main` // pousser mon dernier commit vers la branche main du dépot distant 41e
+  - dedewiiiiiiwwww
+  - dsddfdfdfdfdf
+ 
