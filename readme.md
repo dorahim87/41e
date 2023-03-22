@@ -1,4 +1,4 @@
-# Exercice #1
+# TP1
 
 ### 41e-Planication et gestion de projet Web
 
@@ -14,11 +14,12 @@ vsc visual studio code
 4. Créer un dépôt sur votre compte Github qui contiendra ce projet
    1. Créer un alias de votre dépôt Github dans votre dépôt local
    2. `git remote add 41e-exercice  https://github.com/moncompte/mondépôt.git`
+   
 5. Créer un fichier **.gitignore** pour exclure **style.css** et **style.css.map**
 6. Le premier push contiendra la branche main
 7. Le deuxième push contiendra la branche « votre nom »
 8. Toutes les modifications se feront sur votre branche
-9. Après chaque modification importantes vous réaliserez un commit:
+9.  Après chaque modification importantes vous réaliserez un commit:
    1. `git add --all`
    2. `git commit -m "c3 description des modifications"`
    3. `git log --oneline`

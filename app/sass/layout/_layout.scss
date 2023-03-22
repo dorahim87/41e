@@ -8,26 +8,12 @@ h1 {
   margin: 0;
 }
 
-h1 {
-}
-
 section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-}
-
-.menu {
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-.menu a {
-  display: block;
-  flex: 0 1 100px;
 }
 
 #accueil {
