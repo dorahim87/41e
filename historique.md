@@ -16,9 +16,9 @@
 ---
 ### Naviguer dans les branches
 - Pour changer le nom d'une branche
-- `git branch -m "nom nouvelle branche"`
+- `git branch -m <<nom nouvelle branche>>`
 - Pour créer une nouvelle branche
-- `git branch "nouvelle branche"`
+- `git branch <<nouvelle branche>>`
 - Pour changer de branche
 - `git checkout << la branche>>`
-- 
+- `On ne peut pas changer de branche si la branche courante n'a pas été <<commit>> valider`
