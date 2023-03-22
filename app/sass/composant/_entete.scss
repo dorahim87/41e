@@ -1,30 +1,62 @@
+/*   ----------------------------------------  .entete  */
 .entete{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;
+    
 }
-
+/*   ----------------------------------------  .logo  */
+.logo{
+    outline: 1px dotted #0f0;
+}
+/*   ----------------------------------------  .menu__recherche  */
 .menu__recherche{
     display: flex;
-    outline: 1px dotted gray;
-    flex-direction: column; 
+    outline: 1px dotted #aaa;
+    flex-direction: column-reverse;
     align-items: flex-end;
-
-    @media screen and (min-width:900px) {
-        align-items: center;
+    @media screen and ( min-width : 900px)  {
         flex-direction: row;
+        align-items: center;
     }
+   
+  
 }
-/*...... logo ........*/
-.logo{
-    outline: 1px dotted #34a342;
-}
-/*...... menu ........*/
-.menu{
+/*   ----------------------------------------  .recherche__burger  */
+.recherche__burger{
     display: flex;
-    a {
-        display: block;
-        padding: 2px 5px;
+    justify-content: flex-end;
+}
+/*   ----------------------------------------  .menu  */
+#chkBurger:checked ~ .menu{
+    transform: translateX(0);
+}
+.menu{//version mobile
+    top:2.5rem;
+    position: absolute;
+    transform: translateX(300px);
+    transition: transform .25s;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    @media screen and (min-width: 580px) {
+        position: static;
+        flex-direction: row;
+        align-items: center;
+        
     }
+    a{
+        display: block;
+        padding: 2px 5px ;
+    }
+}
+
+#chkBurger{
+    display: none;
+}
+.recherche label{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
 }
