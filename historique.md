@@ -35,4 +35,9 @@
   - `git remote add 41e https://github.com/dorahim87/41e.git`
   - `git remote -v`// voir la liste des alias du serveur distant
   - `git push 41e main` // pousser mon dernier commit vers la branche main du dépot distant 41e
+  - `git pull 41e main` // pour récupérer la dernier version de notre dépot distant 
   
+## Pour créer une étiquette
+ - `git tag v1.0.0` // Création de l'étiquette v1.0.0
+ - `git tag `// permet d'afficher l'ensemble des tag (étiquette)
+ - `git checkout v1.0.0 `// pour se déplacer dans le commit v1.0.0 (déplace le pointeur «head»)
